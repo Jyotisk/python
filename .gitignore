@@ -1,0 +1,21 @@
+# Environment files
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Mac/Linux
+.DS_Store
+
+rag_queue/.env
+rag/.env
+hellow_world/.env
