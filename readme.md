@@ -1,6 +1,7 @@
 # freez in requirement
 
 pip freeze > requirements.txt
+pip install -r requirements.txt
 
 # create environment 
 python -m venv venv
@@ -99,3 +100,8 @@ python -m venv venv
 
  # mongo db
  pip install -U pymongo langgraph langgraph-checkpoint-mongodb
+
+
+
+ # memory layer to save long term memory using mem0
+ pip install mem0ai
