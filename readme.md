@@ -93,3 +93,9 @@ python -m venv venv
 
 # to run the RQ worker on Windows (uses RQ SimpleWorker)
  python -m rag_queue.run_worker
+
+# langgraph
+ pip install -U langgraph
+
+ # mongo db
+ pip install -U pymongo langgraph langgraph-checkpoint-mongodb

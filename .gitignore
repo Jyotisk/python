@@ -19,3 +19,4 @@ venv/
 rag_queue/.env
 rag/.env
 hellow_world/.env
+langchain/.env
